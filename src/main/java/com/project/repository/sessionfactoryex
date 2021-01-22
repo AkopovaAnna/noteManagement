@@ -1,0 +1,18 @@
+//    @Autowired
+//    private SessionFactory sessionFactory;
+//
+//    public StudentDaoImpl(SessionFactory sessionFactory) {
+//        this.sessionFactory = sessionFactory;
+//    }
+//
+//
+//    @Override
+//    public Integer save(Student student) {
+//        Session session = sessionFactory.openSession();//s getCurrentSession()
+//        Integer studentId = (Integer) session.save(student);
+//        LOGGER.info("student entity was created");
+//        session.flush();
+//        session.close();
+//        return studentId;
+//
+//    }
